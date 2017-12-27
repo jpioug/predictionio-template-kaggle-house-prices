@@ -10,7 +10,6 @@ Download train.csv and test.csv from [Data](https://www.kaggle.com/c/house-price
 
 ## Requirement
 
-* Spark 2.x
 * Docker
 
 ## Getting Started
@@ -20,6 +19,9 @@ Download train.csv and test.csv from [Data](https://www.kaggle.com/c/house-price
 ```
 PIO_MODE=jupyter docker-compose up --abort-on-container-exit
 ```
+
+Open eda.ipynb at Jupyter Notebook page(http://localhost:8888/).
+
 
 ### Run Train Steps on Docker
 
